@@ -1,2 +1,4 @@
 /assets/*;
 /js/theme/*;
+/README.md;
+/.gitignore;
