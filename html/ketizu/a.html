@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .t-base-info{
+      width: 960px;
+      height: 530px;      
+      font-family:MicrosoftYaHei;
+    }
+    .t-base-info .xian{
+      background:#dddddd;
+      width:960px;
+      height:1px;
+      margin-top: 30px;
+    }
+    .t-base-info .title{
+      font-size:16px;
+      line-height: 50px;
+      color:#ffffff;
+      text-align:center;
+      background:#178c5b;
+      width:960px;
+      height:50px;
+      margin-bottom: 30px;
+    }
+    .t-base-info .form-item{
+      margin-bottom: 15px;
+    }
+    .t-base-info .form-item label{
+      font-size:14px;
+      color:#444444;
+      text-align:left;
+      margin-left: 30px;
+      width: 56px;
+      display: inline-block;
+    }
+    .t-base-info .form-item input{
+      background:#ffffff;
+      border:1px solid #ebebeb;
+      border-radius:2px;
+      width:372px;
+      height:40px;
+    }
+    .t-base-info .form-item input.xueke{
+      background:#ffffff;
+      border:1px solid #ebebeb;
+      border-radius:2px;
+      width:840px;
+      height:40px;
+    }
+    .t-base-info .form-item input.shuoming{
+      background:#ffffff;
+      border:1px solid #ebebeb;
+      border-radius:2px;
+      width:840px;
+      height:82px;
+    }
+    .t-base-info .btngroup{
+      height: 50px;
+      line-height: 50px;
+    }
+    .t-base-info .btngroup span{
+      padding:  8px 0;
+      padding-right: 50px;
+      margin-left: 50px;
+      cursor: pointer;
+    }
+    .t-base-info .btngroup span.f{
+      font-family:MicrosoftYaHei;
+      font-size:14px;
+      color:#777777;
+      text-align:center;
+      border-right: 1px solid #eaeaea;
+    }
+    .t-base-info .btngroup span.s{
+      font-family:MicrosoftYaHei;
+      font-size:14px;
+      color:#178c5b;
+      text-align:center;
+    }
+  </style>
+</head>
+<body>
+  <div class="t-base-info">
+    <div class="title">基本信息</div>
+    <div class="form-item">
+      <label for="">课题名称</label>
+      <input type="text">
+      <label for="">助记符</label>
+      <input type="text">
+    </div>
+    <div class="form-item">
+      <label for="">负责人</label>
+      <input type="text">
+      <label for="">当前状态</label>
+      <input type="text">
+    </div>
+    <div class="form-item">
+      <label for="">创建时间</label>
+      <input type="text">
+      <label for="">结束时间</label>
+      <input type="text">
+    </div>
+    <div class="form-item">
+      <label for="">联系方式</label>
+      <input type="text">
+      <label for="">编号</label>
+      <input type="text">
+    </div>
+    <div class="form-item">
+      <label for="">所属学科</label>
+      <input type="text" class="xueke">
+    </div>
+    <div class="form-item">
+      <label for="">说明</label>
+      <input type="text" class="shuoming">
+    </div>
+    <div class="xian"></div>
+    <div class="btngroup">
+      <div style="float: right;">
+        <span class="f">取消</span>
+        <span class="s">提交</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

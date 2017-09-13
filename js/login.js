@@ -21,7 +21,8 @@ $('#loginform').validate({
     }        
   },
   valid:function(){
-    layer.closeAll();
-    $('#login').text('工作台')
+    // layer.closeAll();
+    window.location.href='html/ketizu/ketiinfo.html';
+    // $('#login').text('我的工作台');
   }
 });
