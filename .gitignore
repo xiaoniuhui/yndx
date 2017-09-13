@@ -2,5 +2,6 @@
 /js/theme/*;
 README.md/;
 .gitignore/;
+assets/layui/*;
 
 
