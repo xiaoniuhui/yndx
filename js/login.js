@@ -26,3 +26,4 @@ $('#loginform').validate({
     // $('#login').text('我的工作台');
   }
 });
+
