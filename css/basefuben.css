@@ -480,3 +480,145 @@ input{
   margin-left: 20px;
 }
 
+/*申请培训弹出样式*/
+.xzkc{
+  width: 498px;
+  height: 360px;
+  text-align: center;
+  display: none; 
+}
+.xzkc li{
+  list-style: none;
+  line-height: 1;
+  padding: 15px 0;
+}
+.xzkc li input{
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 20px;
+  margin-top:-2px;
+  margin-bottom:1px
+}
+.xzkc .title{
+  background:#178c5b;
+  width:498px;
+  height:50px;
+  line-height: 50px;
+  font-size:16px;
+  color:#ffffff;
+  text-align:center;
+}
+.xzkc .title-cont{
+  background:#fbfbfb;
+  border-bottom: 1px solid #ddd;
+  height:260px;
+  padding-top: 40px;
+  box-sizing: border-box;
+  color: #444;
+}
+/*按钮组样式*/
+.xzkc .btngroup{
+  height: 50px;
+  line-height: 50px;
+}
+.xzkc .btngroup span{
+  padding:  8px 0;
+  padding-right: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.xzkc .btngroup span.f{
+  font-family:MicrosoftYaHei;
+  font-size:14px;
+  color:#777777;
+  text-align:center;
+  border-right: 1px solid #eaeaea;
+}
+.xzkc .btngroup span.s{
+  font-family:MicrosoftYaHei;
+  font-size:14px;
+  color:#178c5b;
+  text-align:center;
+}
+/*申请培训具体信息*/
+.baseinfo-cont{
+  background:#fbfbfb;
+  border-radius:4px;
+  display: none;
+}
+.baseinfo-cont .title{
+  font-size:16px;
+  color:#ffffff;
+  text-align:center;
+  background:#178c5b;
+  width:498px;
+  height:50px;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+.baseinfo-cont .baseinfo-item{
+  width: 438px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f1f1f1;
+  overflow: hidden;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+.baseinfo-cont .baseinfo-item .top-info{
+  font-size:14px;
+  color:#444444;
+  text-align:left;
+  margin-bottom: 20px;
+}
+.baseinfo-cont .baseinfo-item .base-l{
+  float: left;
+  width: 50%;
+}
+.baseinfo-cont .baseinfo-item .base-r{
+  float: left;
+  width: 50%;
+}
+.baseinfo-cont .baseinfo-item span.l{      
+  font-size:14px;
+  color:#999999;
+  width: 70px;
+  height: 16px;
+  padding: 12px 0;
+  line-height: 1;
+  display: inline-block;
+}
+.baseinfo-cont .baseinfo-item span.r{
+  font-size:14px;
+  color:#444444;
+  width: 130px;
+  height: 16px;
+  padding: 12px 0;
+  line-height: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+/*按钮组样式*/
+.baseinfo-cont .btngroup{
+  height: 50px;
+  line-height: 50px;
+}
+.baseinfo-cont .btngroup span{
+  padding:  8px 0;
+  padding-right: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.baseinfo-cont .btngroup span.f{
+  font-family:MicrosoftYaHei;
+  font-size:14px;
+  color:#777777;
+  text-align:center;
+  border-right: 1px solid #eaeaea;
+}
+.baseinfo-cont .btngroup span.s{
+  font-family:MicrosoftYaHei;
+  font-size:14px;
+  color:#178c5b;
+  text-align:center;
+}
