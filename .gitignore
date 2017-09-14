@@ -1,7 +1,7 @@
-/assets/*;
-/js/theme/*;
-README.md/;
-.gitignore/;
-assets/layui/*;
+/assets/
+/js/theme/
+/README.md/
+/.gitignore/
+/assets/layui/
 
 
