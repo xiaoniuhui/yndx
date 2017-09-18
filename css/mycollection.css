@@ -103,6 +103,7 @@ body{
   text-align: center;
   margin-left: 20px;
   border: 1px solid #178c5b;
+  cursor: pointer;
 }
 .btn-active{
   border: 1px solid transparent !important;
